@@ -1,0 +1,564 @@
+{
+  "PF2E_AFFLICTION_OH": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Occult Horrors",
+      "Library": "Occult Horrors",
+      "LibraryDescription": "Original occult afflictions themed around dreams, shadows, parasites, and mutation with semantic Creature Forge tags.",
+      "SyncFailed": "Occult Horrors could not synchronize its library. See console."
+    },
+    "Content": {
+      "whisper-itch": {
+        "Name": "Whisper Itch",
+        "Description": "A nearly inaudible murmur crawls beneath the skin, making every quiet moment unbearable.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Stupefied 1 and frightened 1."
+        }
+      },
+      "candle-moth-dust": {
+        "Name": "Candle-Moth Dust",
+        "Description": "Pale dust from occult-touched moths settles on eyes and thoughts, provoking brief waking dreams.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1d4 mental damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d4 mental damage and dazzled."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "1d6 mental damage and stupefied 1."
+        }
+      },
+      "hollow-sleep-fever": {
+        "Name": "Hollow-Sleep Fever",
+        "Description": "The victim sleeps, but the mind never rests; each dream leaves an empty place behind.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Fatigued."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "Fatigued and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "Fatigued, stupefied 1, and drained 1."
+        }
+      },
+      "mirror-leech-mark": {
+        "Name": "Mirror-Leech Mark",
+        "Description": "A cold blemish in the reflection feeds on courage and certainty even when the skin shows nothing.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d6 mental damage and frightened 1."
+        }
+      },
+      "nightglass-spores": {
+        "Name": "Nightglass Spores",
+        "Description": "Black-glimmering spores grow in the lungs and cast dark splinters across perception.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d6 void damage and sickened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "1d6 void damage, sickened 2, and stupefied 1."
+        }
+      },
+      "pale-whisper-venom": {
+        "Name": "Pale Whisper Venom",
+        "Description": "The venom whispers in voices that do not come from the room until pain and thought blur together.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d6 poison and 1d6 mental damage."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 mental damage and stupefied 1."
+        }
+      },
+      "echo-worm-infestation": {
+        "Name": "Echo-Worm Infestation",
+        "Description": "Threadlike parasites nest near the ears and repeat thoughts in an alien voice.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d6 mental damage and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 mental damage and stupefied 2."
+        }
+      },
+      "black-candle-curse": {
+        "Name": "Black Candle Curse",
+        "Description": "A soot-dark curse extinguishes light at the edges of vision and draws grave-cold into the body.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "1d6 void damage and frightened 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 void damage and drained 1."
+        }
+      },
+      "dream-eater-pollen": {
+        "Name": "Dream-Eater Pollen",
+        "Description": "Silvery pollen lures the mind into half-remembered dreams and feeds at the edge of waking.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "1d6 mental damage and dazzled."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 mental damage and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 mental damage and confused."
+        }
+      },
+      "shadow-lace": {
+        "Name": "Shadow Lace",
+        "Description": "Fine strands of shadow wind around joints and thoughts, pulling the victim subtly out of rhythm.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 mental damage and clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "2d6 mental damage, clumsy 2, and slowed 1."
+        }
+      },
+      "glass-eye-fever": {
+        "Name": "Glass-Eye Fever",
+        "Description": "The eyes become mirror-smooth and reveal things lurking behind the visible world.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Dazzled and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 mental damage, dazzled, and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 mental damage and stupefied 2."
+        }
+      },
+      "sable-spider-venom": {
+        "Name": "Sable Spider Venom",
+        "Description": "The dark venom of great night spiders numbs the muscles while shadows seem to crawl across the skin.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "2d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 poison damage and clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 poison damage, clumsy 2, and slowed 1."
+        }
+      },
+      "false-memory-blight": {
+        "Name": "False-Memory Blight",
+        "Description": "The curse plants memories that feel truer than truth and fray concentration.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 mental damage and stupefied 1; concentrate actions require a DC 5 flat check.",
+          "Gate": "Occult concentration disruption"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 mental damage and stupefied 2; concentrate actions require a DC 6 flat check.",
+          "Gate": "Occult concentration disruption"
+        }
+      },
+      "moon-mouth-parasite": {
+        "Name": "Moon-Mouth Parasite",
+        "Description": "A pale parasite opens tiny ring-shaped wounds during sleep and feeds on blood and vitality.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Sickened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 poison damage, sickened 1, and drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 poison damage, sickened 2, and drained 1."
+        }
+      },
+      "name-thief-mark": {
+        "Name": "Name-Thief Mark",
+        "Description": "The curse pulls the victim’s own name from their throat; words become difficult and identity starts to blur.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Stupefied 1; speaking is blocked."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 mental damage and stupefied 1; speaking is blocked."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 mental damage and stupefied 2; speaking is blocked."
+        }
+      },
+      "whispering-mycelium": {
+        "Name": "Whispering Mycelium",
+        "Description": "The mycelium grows in damp caves, whispering the same impossible sentence through every inhaled spore.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "2d6 mental damage and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "3d6 mental damage and confused."
+        }
+      },
+      "astral-leech-fever": {
+        "Name": "Astral Leech Fever",
+        "Description": "Invisible leeches cling to the soul, draining warmth, memories, and vitality at once.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "2d6 void damage and drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 void damage, drained 1, and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 void damage, drained 2, and stupefied 1."
+        }
+      },
+      "veil-wasp-venom": {
+        "Name": "Veil-Wasp Venom",
+        "Description": "A veil wasp’s sting knocks consciousness out of the body for heartbeats at a time.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 poison damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 poison and 2d6 mental damage."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 mental damage and confused."
+        }
+      },
+      "doppelshade-curse": {
+        "Name": "Doppelshade Curse",
+        "Description": "A second shadow appears, moves a heartbeat late, and eventually begins to interfere with the victim’s motions.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Frightened 1 and clumsy 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 mental damage, frightened 1, and clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 void damage, clumsy 2, and slowed 1."
+        }
+      },
+      "sleepwalker-rot": {
+        "Name": "Sleepwalker Rot",
+        "Description": "The victim wakes with dirt on their feet and wounds they cannot remember receiving.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Fatigued and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "3d6 void damage, fatigued, and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "4d6 void damage, drained 1, and stupefied 2."
+        }
+      },
+      "thoughtmold-bloom": {
+        "Name": "Thoughtmold Bloom",
+        "Description": "An invisible mold infects memories rather than flesh, causing thoughts to grow in alien patterns.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 mental damage and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 mental damage and stupefied 2; concentrate actions require a DC 5 flat check.",
+          "Gate": "Occult concentration disruption"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 mental damage, stupefied 2, and confused; concentrate actions require a DC 7 flat check.",
+          "Gate": "Occult concentration disruption"
+        }
+      },
+      "red-dream-venom": {
+        "Name": "Red-Dream Venom",
+        "Description": "The red venom turns pain into vivid dream fragments until the victim cannot distinguish battle from nightmare.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "3d6 poison and 2d6 mental damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 mental damage and stupefied 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 mental damage, stupefied 2, and confused."
+        }
+      },
+      "faceless-oath": {
+        "Name": "Faceless Oath",
+        "Description": "A broken occult vow erases voice and self-image piece by piece.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "Stupefied 1; speaking is blocked."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "4d6 spirit damage and stupefied 1; speaking is blocked, and damage caused by the affliction cannot be healed."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "5d6 spirit damage, stupefied 2, and drained 1; speaking and healing are blocked."
+        }
+      },
+      "eclipse-scorpion-venom": {
+        "Name": "Eclipse Scorpion Venom",
+        "Description": "This venom carries a dark afterimage that poisons the blood while pulling vitality from the body.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "4d6 poison and 2d6 void damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "5d6 poison damage and drained 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "6d6 void damage, drained 2, and slowed 1."
+        }
+      },
+      "memory-maw-infestation": {
+        "Name": "Memory-Maw Infestation",
+        "Description": "Invisible parasites chew holes in memory, leaving only the certainty that something important has been forgotten.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "4d6 mental damage and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "5d6 mental damage, stupefied 2, and drained 1; concentrate actions require a DC 6 flat check.",
+          "Gate": "Occult concentration disruption"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "6d6 mental damage, stupefied 3, drained 1, and confused; concentrate actions require a DC 8 flat check.",
+          "Gate": "Occult concentration disruption"
+        }
+      },
+      "crimson-reflection": {
+        "Name": "Crimson Reflection",
+        "Description": "The reflection begins to bleed before the victim is wounded, and every drop carries vitality away.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "4d6 mental damage and frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "5d6 spirit damage and drained 1; damage caused by the affliction cannot be healed."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "6d6 void damage, drained 2, and doomed 1; healing is blocked."
+        }
+      },
+      "void-moth-dust": {
+        "Name": "Void-Moth Dust",
+        "Description": "Black dust from planar moth wings erases color, sound, and eventually coherent thought.",
+        "SaveLabel": "Poison Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "5d6 mental and 3d6 void damage."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "6d6 mental damage and stupefied 2."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "7d6 void damage, stupefied 2, and confused."
+        }
+      },
+      "dream-prison": {
+        "Name": "Dream Prison",
+        "Description": "The curse builds a closed dream from memories, where every escape route leads back to the beginning.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "5d6 mental damage and stupefied 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "6d6 mental damage, stupefied 2, and slowed 1; concentrate actions require a DC 7 flat check.",
+          "Gate": "Occult concentration disruption"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "7d6 mental damage, stupefied 3, and slowed 2; concentrate actions require a DC 9 flat check.",
+          "Gate": "Occult concentration disruption"
+        }
+      },
+      "skin-writer-parasite": {
+        "Name": "Skin-Writer Parasite",
+        "Description": "The parasite writes itself in moving lines beneath the skin, reshaping the body according to an alien alphabet.",
+        "SaveLabel": "Disease Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "5d6 void damage and drained 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "6d6 void damage, drained 2, and clumsy 1."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "7d6 void damage, drained 2, clumsy 2, and doomed 1."
+        }
+      },
+      "unmaking-whisper": {
+        "Name": "Unmaking Whisper",
+        "Description": "An impossible sentence describes the victim as though they had never existed, and the world begins to listen.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "6d6 mental damage and stupefied 2."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "8d6 mental damage, stupefied 3, and drained 1; concentrate actions require a DC 8 flat check.",
+          "Gate": "Occult concentration disruption"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "10d6 spirit damage, stupefied 3, drained 2, and doomed 1; concentrate actions require a DC 10 flat check.",
+          "Gate": "Occult concentration disruption"
+        }
+      },
+      "night-between-stars": {
+        "Name": "The Night Between Stars",
+        "Description": "Something from the dark interval between stars hooks into the mind and pulls it away from familiar reality.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "7d6 void damage, 4d6 mental damage, and frightened 1."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "9d6 void damage, drained 2, and slowed 1; damage caused by the affliction cannot be healed."
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "11d6 void damage, drained 3, slowed 2, and doomed 2; healing is blocked."
+        }
+      },
+      "devouring-dream": {
+        "Name": "The Devouring Dream",
+        "Description": "The dream is no longer a place but a predator. With each stage it devours more of the waking person until only the dream remains.",
+        "SaveLabel": "Curse Save",
+        "Stage1": {
+          "Name": "Stage 1",
+          "Description": "8d6 mental damage and stupefied 2."
+        },
+        "Stage2": {
+          "Name": "Stage 2",
+          "Description": "10d6 mental damage, stupefied 3, and slowed 1; concentrate actions require a DC 9 flat check.",
+          "Gate": "Occult concentration disruption"
+        },
+        "Stage3": {
+          "Name": "Stage 3",
+          "Description": "12d6 mental and 6d6 void damage, drained 3, and doomed 2; concentrate actions require a DC 11 flat check.",
+          "Gate": "Occult concentration disruption"
+        },
+        "Stage4": {
+          "Name": "Stage 4",
+          "Description": "14d6 mental and 8d6 void damage; death effect."
+        }
+      }
+    }
+  }
+}

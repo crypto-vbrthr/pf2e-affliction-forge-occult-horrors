@@ -1,0 +1,564 @@
+{
+  "PF2E_AFFLICTION_OH": {
+    "Module": {
+      "Title": "PF2E Affliction Forge: Occult Horrors",
+      "Library": "Okkulte Schrecken",
+      "LibraryDescription": "Originale okkulte Leiden mit Traum-, Schatten-, Parasiten- und Mutationsmotiven sowie semantischen Creature-Forge-Tags.",
+      "SyncFailed": "Okkulte Schrecken konnten ihre Bibliothek nicht synchronisieren. Siehe Konsole."
+    },
+    "Content": {
+      "whisper-itch": {
+        "Name": "Flüsterjucken",
+        "Description": "Ein kaum hörbares Raunen kriecht unter die Haut und macht jeden stillen Moment unerträglich.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Benommen 1 und Verängstigt 1."
+        }
+      },
+      "candle-moth-dust": {
+        "Name": "Kerzenmottenstaub",
+        "Description": "Der blasse Staub okkult berührter Motten legt sich auf Augen und Gedanken und ruft kurze Wachträume hervor.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1W4 mentaler Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1W4 mentaler Schaden und Geblendet."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "1W6 mentaler Schaden und Benommen 1."
+        }
+      },
+      "hollow-sleep-fever": {
+        "Name": "Hohlschlaffieber",
+        "Description": "Das Opfer schläft, doch der Geist findet keine Ruhe; jeder Traum hinterlässt eine leere Stelle.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Erschöpft."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "Erschöpft und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "Erschöpft, Benommen 1 und Ausgelaugt 1."
+        }
+      },
+      "mirror-leech-mark": {
+        "Name": "Spiegelegelmal",
+        "Description": "Ein kalter Fleck im Spiegelbild saugt an Mut und Selbstgewissheit, auch wenn auf der Haut nichts zu sehen ist.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Verängstigt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1W6 mentaler Schaden und Verängstigt 1."
+        }
+      },
+      "nightglass-spores": {
+        "Name": "Nachtglassporen",
+        "Description": "Schwarz schimmernde Sporen wachsen in den Atemwegen und werfen dunkle Splitter in die Wahrnehmung.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Übel 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1W6 Leerschaden und Übel 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "1W6 Leerschaden, Übel 2 und Benommen 1."
+        }
+      },
+      "pale-whisper-venom": {
+        "Name": "Bleichflüstergift",
+        "Description": "Das Gift flüstert mit Stimmen, die nicht aus dem Raum stammen, bis Schmerz und Gedanke ineinanderlaufen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1W6 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1W6 Gift- und 1W6 mentaler Schaden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2W6 mentaler Schaden und Benommen 1."
+        }
+      },
+      "echo-worm-infestation": {
+        "Name": "Echowurmbefall",
+        "Description": "Fadenartige Parasiten nisten sich nahe den Ohren ein und wiederholen Gedanken mit einer fremden Stimme.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1W6 mentaler Schaden und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2W6 mentaler Schaden und Benommen 2."
+        }
+      },
+      "black-candle-curse": {
+        "Name": "Fluch der schwarzen Kerze",
+        "Description": "Ein rußiger Fluch lässt Licht an den Rändern erlöschen und zieht Grabeskälte in den Körper.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Verängstigt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "1W6 Leerschaden und Verängstigt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2W6 Leerschaden und Ausgelaugt 1."
+        }
+      },
+      "dream-eater-pollen": {
+        "Name": "Traumfresserpollen",
+        "Description": "Silbriger Blütenstaub lockt den Geist in halb erinnerte Träume und frisst an der Grenze zum Wachsein.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "1W6 mentaler Schaden und Geblendet."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 mentaler Schaden und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2W6 mentaler Schaden und Verwirrt."
+        }
+      },
+      "shadow-lace": {
+        "Name": "Schattengeflecht",
+        "Description": "Feine Schattenfäden legen sich um Gelenke und Gedanken und ziehen das Opfer unmerklich aus dem Takt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 mentaler Schaden und Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "2W6 mentaler Schaden, Unbeholfen 2 und Verlangsamt 1."
+        }
+      },
+      "glass-eye-fever": {
+        "Name": "Glasaugenfieber",
+        "Description": "Die Augen werden spiegelglatt und zeigen Dinge, die hinter der sichtbaren Welt lauern.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Geblendet und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 mentaler Schaden, Geblendet und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3W6 mentaler Schaden und Benommen 2."
+        }
+      },
+      "sable-spider-venom": {
+        "Name": "Zobelspinnengift",
+        "Description": "Das dunkle Gift großer Nachtspinnen lähmt die Muskeln, während Schatten über die Haut zu wandern scheinen.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "2W6 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 Giftschaden und Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3W6 Giftschaden, Unbeholfen 2 und Verlangsamt 1."
+        }
+      },
+      "false-memory-blight": {
+        "Name": "Falscherinnerungsfäule",
+        "Description": "Der Fluch pflanzt Erinnerungen ein, die sich richtiger anfühlen als die Wahrheit und Konzentration zerfasern.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 mentaler Schaden und Benommen 1; Konzentrationshandlungen erfordern einen Einfachen Wurf gegen SG 5.",
+          "Gate": "Okkulte Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3W6 mentaler Schaden und Benommen 2; Konzentrationshandlungen erfordern einen Einfachen Wurf gegen SG 6.",
+          "Gate": "Okkulte Konzentrationsstörung"
+        }
+      },
+      "moon-mouth-parasite": {
+        "Name": "Mondmaulparasit",
+        "Description": "Ein blasser Parasit öffnet im Schlaf winzige ringförmige Wunden und zehrt an Blut und Kraft.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Übel 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 Giftschaden, Übel 1 und Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3W6 Giftschaden, Übel 2 und Ausgelaugt 1."
+        }
+      },
+      "name-thief-mark": {
+        "Name": "Mal des Namendiebs",
+        "Description": "Der Fluch zieht den eigenen Namen aus der Kehle; Worte werden schwer und Identität beginnt zu verschwimmen.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1; Sprechen ist blockiert."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 mentaler Schaden und Benommen 1; Sprechen ist blockiert."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3W6 mentaler Schaden und Benommen 2; Sprechen ist blockiert."
+        }
+      },
+      "whispering-mycelium": {
+        "Name": "Flüstermyzel",
+        "Description": "Das Myzel wächst in feuchten Höhlen und flüstert durch jede eingeatmete Spore denselben unmöglichen Satz.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "2W6 mentaler Schaden und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "3W6 mentaler Schaden und Verwirrt."
+        }
+      },
+      "astral-leech-fever": {
+        "Name": "Astralegelfieber",
+        "Description": "Unsichtbare Egel heften sich an die Seele und ziehen Wärme, Erinnerungen und Lebenskraft zugleich ab.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "2W6 Leerschaden und Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3W6 Leerschaden, Ausgelaugt 1 und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4W6 Leerschaden, Ausgelaugt 2 und Benommen 1."
+        }
+      },
+      "veil-wasp-venom": {
+        "Name": "Schleierwespengift",
+        "Description": "Der Stich einer Schleierwespe treibt das Bewusstsein für Augenblicke aus dem Körper und zurück.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3W6 Giftschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3W6 Gift- und 2W6 mentaler Schaden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4W6 mentaler Schaden und Verwirrt."
+        }
+      },
+      "doppelshade-curse": {
+        "Name": "Doppelschattenfluch",
+        "Description": "Ein zweiter Schatten erscheint, bewegt sich einen Herzschlag zu spät und beginnt schließlich, die Bewegungen des Opfers zu stören.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Verängstigt 1 und Unbeholfen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3W6 mentaler Schaden, Verängstigt 1 und Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4W6 Leerschaden, Unbeholfen 2 und Verlangsamt 1."
+        }
+      },
+      "sleepwalker-rot": {
+        "Name": "Schlafwandlerfäule",
+        "Description": "Das Opfer erwacht mit Schmutz an den Füßen und Wunden, an deren Entstehung es sich nicht erinnern kann.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Erschöpft und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "3W6 Leerschaden, Erschöpft und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "4W6 Leerschaden, Ausgelaugt 1 und Benommen 2."
+        }
+      },
+      "thoughtmold-bloom": {
+        "Name": "Gedankenschimmelblüte",
+        "Description": "Ein unsichtbarer Schimmel befällt Erinnerungen statt Fleisch und lässt Gedanken in fremden Mustern wachsen.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3W6 mentaler Schaden und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4W6 mentaler Schaden und Benommen 2; Konzentrationshandlungen erfordern einen Einfachen Wurf gegen SG 5.",
+          "Gate": "Okkulte Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5W6 mentaler Schaden, Benommen 2 und Verwirrt; Konzentrationshandlungen erfordern einen Einfachen Wurf gegen SG 7.",
+          "Gate": "Okkulte Konzentrationsstörung"
+        }
+      },
+      "red-dream-venom": {
+        "Name": "Rottraumgift",
+        "Description": "Das rote Gift verwandelt Schmerz in lebhafte Traumfragmente, bis das Opfer nicht mehr zwischen Kampf und Alptraum unterscheiden kann.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "3W6 Gift- und 2W6 mentaler Schaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4W6 mentaler Schaden und Benommen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5W6 mentaler Schaden, Benommen 2 und Verwirrt."
+        }
+      },
+      "faceless-oath": {
+        "Name": "Gesichtsloser Eid",
+        "Description": "Ein gebrochener okkulter Schwur löscht Stimme und Selbstbild Stück für Stück aus.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "Benommen 1; Sprechen ist blockiert."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "4W6 Geistschaden und Benommen 1; Sprechen ist blockiert, durch das Leiden verursachter Schaden kann nicht geheilt werden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "5W6 Geistschaden, Benommen 2 und Ausgelaugt 1; Sprechen und Heilung sind blockiert."
+        }
+      },
+      "eclipse-scorpion-venom": {
+        "Name": "Finsternisskorpiongift",
+        "Description": "Dieses Gift trägt einen dunklen Nachhall, der Blut vergiftet und zugleich Lebenskraft aus dem Körper zieht.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "4W6 Gift- und 2W6 Leerschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "5W6 Giftschaden und Ausgelaugt 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "6W6 Leerschaden, Ausgelaugt 2 und Verlangsamt 1."
+        }
+      },
+      "memory-maw-infestation": {
+        "Name": "Erinnerungsschlundbefall",
+        "Description": "Unsichtbare Parasiten kauen Lücken in Erinnerungen und lassen nur das Gefühl zurück, etwas Wichtiges vergessen zu haben.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "4W6 mentaler Schaden und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "5W6 mentaler Schaden, Benommen 2 und Ausgelaugt 1; Konzentrationshandlungen erfordern einen Einfachen Wurf gegen SG 6.",
+          "Gate": "Okkulte Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "6W6 mentaler Schaden, Benommen 3, Ausgelaugt 1 und Verwirrt; Konzentrationshandlungen erfordern einen Einfachen Wurf gegen SG 8.",
+          "Gate": "Okkulte Konzentrationsstörung"
+        }
+      },
+      "crimson-reflection": {
+        "Name": "Purpurspiegelung",
+        "Description": "Das Spiegelbild beginnt zu bluten, bevor das Opfer verwundet wird, und jeder Tropfen nimmt Lebenskraft mit sich.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "4W6 mentaler Schaden und Verängstigt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "5W6 Geistschaden und Ausgelaugt 1; durch das Leiden verursachter Schaden kann nicht geheilt werden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "6W6 Leerschaden, Ausgelaugt 2 und Verdammt 1; Heilung ist blockiert."
+        }
+      },
+      "void-moth-dust": {
+        "Name": "Leermottenstaub",
+        "Description": "Schwarzer Staub aus den Flügeln planarer Motten löscht Farben, Geräusche und schließlich zusammenhängende Gedanken.",
+        "SaveLabel": "Gift-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "5W6 mentaler und 3W6 Leerschaden."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "6W6 mentaler Schaden und Benommen 2."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "7W6 Leerschaden, Benommen 2 und Verwirrt."
+        }
+      },
+      "dream-prison": {
+        "Name": "Traumgefängnis",
+        "Description": "Der Fluch baut aus Erinnerungen einen geschlossenen Traum, in dem jeder Ausweg wieder zum Anfang führt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "5W6 mentaler Schaden und Benommen 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "6W6 mentaler Schaden, Benommen 2 und Verlangsamt 1; Konzentrationshandlungen erfordern einen Einfachen Wurf gegen SG 7.",
+          "Gate": "Okkulte Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "7W6 mentaler Schaden, Benommen 3 und Verlangsamt 2; Konzentrationshandlungen erfordern einen Einfachen Wurf gegen SG 9.",
+          "Gate": "Okkulte Konzentrationsstörung"
+        }
+      },
+      "skin-writer-parasite": {
+        "Name": "Hautschreiberparasit",
+        "Description": "Der Parasit schreibt sich in wandernden Linien unter die Haut und verändert den Körper nach einem fremden Alphabet.",
+        "SaveLabel": "Krankheits-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "5W6 Leerschaden und Ausgelaugt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "6W6 Leerschaden, Ausgelaugt 2 und Unbeholfen 1."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "7W6 Leerschaden, Ausgelaugt 2, Unbeholfen 2 und Verdammt 1."
+        }
+      },
+      "unmaking-whisper": {
+        "Name": "Flüstern der Auflösung",
+        "Description": "Ein unmöglicher Satz beschreibt das Opfer so, als hätte es nie existiert, und die Welt beginnt zuzuhören.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "6W6 mentaler Schaden und Benommen 2."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "8W6 mentaler Schaden, Benommen 3 und Ausgelaugt 1; Konzentrationshandlungen erfordern einen Einfachen Wurf gegen SG 8.",
+          "Gate": "Okkulte Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "10W6 Geistschaden, Benommen 3, Ausgelaugt 2 und Verdammt 1; Konzentrationshandlungen erfordern einen Einfachen Wurf gegen SG 10.",
+          "Gate": "Okkulte Konzentrationsstörung"
+        }
+      },
+      "night-between-stars": {
+        "Name": "Die Nacht zwischen den Sternen",
+        "Description": "Etwas aus dem dunklen Abstand zwischen den Sternen hängt sich an den Geist und zieht ihn aus der vertrauten Wirklichkeit.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "7W6 Leerschaden, 4W6 mentaler Schaden und Verängstigt 1."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "9W6 Leerschaden, Ausgelaugt 2 und Verlangsamt 1; durch das Leiden verursachter Schaden kann nicht geheilt werden."
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "11W6 Leerschaden, Ausgelaugt 3, Verlangsamt 2 und Verdammt 2; Heilung ist blockiert."
+        }
+      },
+      "devouring-dream": {
+        "Name": "Der verschlingende Traum",
+        "Description": "Der Traum ist kein Ort mehr, sondern ein Raubtier. Mit jeder Phase frisst er mehr von der wachen Person, bis nur noch der Traum übrig bleibt.",
+        "SaveLabel": "Fluch-Rettungswurf",
+        "Stage1": {
+          "Name": "Phase 1",
+          "Description": "8W6 mentaler Schaden und Benommen 2."
+        },
+        "Stage2": {
+          "Name": "Phase 2",
+          "Description": "10W6 mentaler Schaden, Benommen 3 und Verlangsamt 1; Konzentrationshandlungen erfordern einen Einfachen Wurf gegen SG 9.",
+          "Gate": "Okkulte Konzentrationsstörung"
+        },
+        "Stage3": {
+          "Name": "Phase 3",
+          "Description": "12W6 mentaler und 6W6 Leerschaden, Ausgelaugt 3 und Verdammt 2; Konzentrationshandlungen erfordern einen Einfachen Wurf gegen SG 11.",
+          "Gate": "Okkulte Konzentrationsstörung"
+        },
+        "Stage4": {
+          "Name": "Phase 4",
+          "Description": "14W6 mentaler und 8W6 Leerschaden; Todeseffekt."
+        }
+      }
+    }
+  }
+}
